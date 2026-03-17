@@ -27,7 +27,7 @@ jobs:
       - name: Run Python Script
         env:
           API_KEY: ${{ secrets.API_KEY }} # Pulls your hidden API key
-        run: python ncaa_tournament_stats.py
+        run: python ncaa_tournament_player_stats.py
 
       - name: Commit and Push Changes
         run: |
