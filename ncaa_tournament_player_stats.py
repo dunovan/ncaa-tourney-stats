@@ -16,7 +16,7 @@ def fetch_tournament_player_stats():
     # Query parameters for the 2026 Postseason 
     params = {
         "year": 2025,
-        "seasonType": "regular",
+        "seasonType": "regular"
         #"team": "Kansas" # Picking one team ensures a fast, guaranteed return
     }
     
