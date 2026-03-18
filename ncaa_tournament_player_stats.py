@@ -17,8 +17,8 @@ def fetch_tournament_player_stats():
     params = {
         "year": 2026,
         "seasonType": "regular",
-        "startDateRange": 2026-01-01,
-        "endDateRange": 2026-03-01
+        "startDateRange": 2026-1-1,
+        "endDateRange": 2026-3-1
     }
     
     # 1. Fetch game metadata to get the tournament round
