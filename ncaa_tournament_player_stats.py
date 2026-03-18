@@ -18,7 +18,7 @@ params = {
         "year": 2025,
         "seasonType": "regular",
         "team": "Kansas" # Picking one team ensures a fast, guaranteed return
-    }
+}
     
     # 1. Fetch game metadata to get the tournament round
     print("Fetching game schedules to determine tournament rounds...")
