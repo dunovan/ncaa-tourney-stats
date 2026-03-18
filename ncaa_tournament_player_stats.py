@@ -15,7 +15,7 @@ def fetch_tournament_player_stats():
     
     # Query parameters for the 2026 Postseason 
     params = {
-        "year": 2026,
+        "year": 2025,
         "seasonType": "regular",
         "startDateRange": 2026-1-1,
         "endDateRange": 2026-3-1
