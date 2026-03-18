@@ -19,14 +19,15 @@ def fetch_tournament_player_stats():
     params = {
         "season": 2026, 
         "year": 2026,
-        "seasonType": "postseason" 
+        "seasonType": "postseason",
+        "tournament": "NCAA"
     }
     
     print("Fetching player stats from API...")
     
     try:
-        # 15-second timeout to prevent GitHub Action hanging
-        response = requests.get(url, headers=headers, params=params, timeout=15)
+        # 30-second timeout to prevent GitHub Action hanging
+        response = requests.get(url, headers=headers, params=params, timeout=30)
         
         if response.status_code != 200:
             print(f"Error {response.status_code}: {response.text}")
