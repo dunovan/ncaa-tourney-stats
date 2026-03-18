@@ -16,7 +16,8 @@ def fetch_tournament_player_stats():
     # Query parameters for the 2026 Postseason 
     params = {
         "year": 2026,
-        "seasonType": "postseason" 
+        "seasonType": "regular",
+        "startDate": 2026-01-01
     }
     
     # 1. Fetch game metadata to get the tournament round
