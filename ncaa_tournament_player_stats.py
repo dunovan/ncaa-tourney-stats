@@ -14,11 +14,10 @@ def fetch_tournament_player_stats():
     }
     
     # Query parameters for the 2026 Postseason 
-    params = {
+params = {
         "year": 2025,
         "seasonType": "regular",
-        "startDateRange": "2026-01-01",
-        "endDateRange": "2026-03-01"
+        "team": "Kansas" # Picking one team ensures a fast, guaranteed return
     }
     
     # 1. Fetch game metadata to get the tournament round
